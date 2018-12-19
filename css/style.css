@@ -1,0 +1,214 @@
+/*Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Quattrocento+Sans");
+/* color variables */
+/* font color variables */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #abaeb7;
+}
+
+.btn {
+  font-size: 0.8rem;
+  padding: 0.7rem 1.2rem;
+}
+
+.btn-green {
+  background-color: #23b7a4;
+  border: 2px solid #23b7a4;
+  color: #fff;
+}
+
+.active {
+  border-radius: 5px;
+  border: 2px solid #23b7a4;
+  background-color: transparent;
+}
+
+.btn-grey {
+  background-color: transparent;
+  border: 1.5px solid #e1e6ea;
+  color: #e1e6ea;
+}
+
+.section-heading {
+  border-left: 7px solid #e1e6ea;
+  padding-left: 0.7rem;
+  margin-bottom: 3rem;
+}
+
+section {
+  padding: 3.5rem 0;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.butons {
+  margin-left: -1rem;
+}
+
+/*HEADER */
+.main-header {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+}
+.main-header .navbar {
+  background-color: #1d2126 !important;
+  font-size: 0.6rem;
+  padding: 1rem 1rem;
+}
+.main-header .navbar .navbar-nav .nav-item {
+  padding: 1px 5px;
+}
+.main-header .navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+.main-header .navbar .navbar-brand {
+  color: #fff;
+}
+.main-header .banner {
+  background: transparent;
+  border-radius: 0;
+  padding: 14rem 0;
+  max-width: 100%;
+}
+@media (max-width: 575.98px) {
+  .main-header .banner p {
+    text-align: center;
+  }
+  .main-header .banner .butons {
+    text-align: center;
+  }
+}
+.main-header .banner h1 {
+  font-size: 2rem;
+  color: #e1e6ea;
+}
+.main-header .banner p {
+  font-size: 1rem;
+}
+
+/*ABOUT */
+.about .list-inline {
+  margin-top: 3rem;
+}
+@media (max-width: 575.98px) {
+  .about .list-inline {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.about .list-inline .list-inline-item {
+  margin: 0;
+  margin-left: -3px;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  background-color: #23b7a4;
+}
+.about .number {
+  font-size: 3rem;
+  background-color: #23b7a4;
+  color: #fff;
+}
+.about h3 {
+  font-size: 1rem;
+  color: #3a454d;
+}
+@media (max-width: 575.98px) {
+  .about h3 {
+    text-align: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .about p {
+    text-align: center;
+  }
+}
+
+/*TEAM */
+.team .card-body {
+  padding: 1rem;
+  background-color: #e1e6ea;
+}
+.team .card-body .membre-name {
+  font-size: 1.3rem;
+}
+
+/*WORK */
+.work {
+  background-color: #3a454d;
+}
+@media (max-width: 575.98px) {
+  .work {
+    text-align: center;
+  }
+}
+.work button {
+  margin-top: 6rem;
+}
+@media (max-width: 575.98px) {
+  .work img {
+    margin-bottom: 10px;
+  }
+}
+
+.services .service-symbol {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #23b7a4;
+}
+.services .service-name {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.features {
+  background-color: #e1e6ea;
+}
+@media (max-width: 575.98px) {
+  .features {
+    text-align: center;
+  }
+}
+.features .section-heading {
+  border-left: 7px solid #e1e6ea;
+}
+.features .ft-name {
+  margin: 1.8rem 0 1rem;
+}
+
+.contact {
+  background-image: url("../images/location.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 10rem;
+}
+.contact .content {
+  margin-top: 12rem;
+}
+.contact .content h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.contact .content form {
+  background-color: #fff;
+  padding: 2rem;
+}
+.contact .content form textarea {
+  resize: none;
+}
+
+footer {
+  background-color: #3a454d;
+}
+footer p {
+  margin: 0;
+}
+footer .social {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

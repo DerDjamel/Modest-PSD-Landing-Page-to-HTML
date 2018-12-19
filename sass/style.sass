@@ -1,0 +1,197 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quattrocento+Sans')
+
+
+/* color variables */
+$green  : #23b7a4
+$grey   : #3a454d
+$grey2  : #e1e6ea
+
+/* font color variables */
+$white     : #fff
+$paragraph : #abaeb7
+$navbar: #1d2126
+
+body
+  font-family: 'Open Sans', sans-serif
+  color : $paragraph
+
+.btn
+  font-size: .8rem
+  padding: .7rem 1.2rem
+
+.btn-green
+  background-color: $green
+  border: 2px solid $green
+  color: $white
+
+.active
+  border-radius: 5px
+  border: 2px solid $green
+  background-color: transparent
+
+
+.btn-grey
+  background-color: transparent
+  border: 1.5px solid $grey2
+  color: $grey2
+
+.section-heading
+  border-left: 7px solid $grey2
+  padding-left: .7rem
+  margin-bottom: 3rem
+
+
+section
+  padding: 3.5rem 0
+
+
+p
+  font-size: .9rem
+
+.butons
+  margin-left: -1rem
+
+/*HEADER*/
+.main-header
+  background-image: url('../images/banner.jpg')
+  background-size: cover
+
+  .navbar
+    background-color: $navbar !important
+    font-size: .6rem
+    padding: 1rem 1rem
+    .navbar-nav
+      .nav-item
+          padding: 1px 5px
+      .nav-link
+          color: $white
+
+    .navbar-brand
+      color: $white
+
+
+  .banner
+    background: transparent
+    border-radius: 0
+    padding: 14rem 0
+    max-width: 100%
+    @media (max-width: 575.98px)
+      p
+        text-align: center
+      .butons
+        text-align: center
+
+    h1
+      font-size: 2rem
+      color: $grey2
+    p
+      font-size: 1rem
+
+
+
+/*ABOUT*/
+.about
+  .list-inline
+    margin-top: 3rem
+    @media (max-width: 575.98px)
+      justify-content : center
+    .list-inline-item
+      margin: 0
+      margin-left: -3px
+      font-size: 2rem
+      padding: 1rem 1.5rem
+      color: $white
+      background-color: $green
+  .number
+    font-size: 3rem
+    background-color: $green
+    color: $white
+  h3
+    font-size: 1rem
+    color: $grey
+    @media (max-width: 575.98px)
+      text-align: center
+  p
+    @media (max-width: 575.98px)
+      text-align: center
+
+
+
+
+
+/*TEAM*/
+.team
+  .card-body
+    padding: 1rem
+    background-color: $grey2
+
+    .membre-name
+      font-size: 1.3rem
+
+
+/*WORK*/
+.work
+  background-color: $grey
+  @media (max-width: 575.98px)
+    text-align: center
+  button
+    margin-top: 6rem
+  img
+    @media (max-width: 575.98px)
+      margin-bottom: 10px
+
+
+
+
+
+.services
+  .service-symbol
+    font-size: 2.5rem
+    margin-bottom: 1rem
+    color: $green
+  .service-name
+    font-size: 1.3rem
+    margin-bottom: 1rem
+
+
+
+.features
+  @media (max-width: 575.98px)
+    text-align: center
+  background-color: $grey2
+  .section-heading
+    border-left: 7px solid $grey2
+  .ft-name
+    margin: 1.8rem 0 1rem
+
+
+
+
+
+
+
+
+
+.contact
+  background-image: url('../images/location.jpg')
+  background-size: 100%
+  background-repeat: no-repeat
+  background-position: 0 10rem
+  .content
+    margin-top: 12rem
+    h3
+      font-size: 1.2rem
+      margin-top: 1rem
+    form
+      background-color: $white
+      padding: 2rem
+      textarea
+        resize: none
+
+footer
+  background-color: $grey
+  p
+    margin: 0
+  .social
+    font-size: 1rem
